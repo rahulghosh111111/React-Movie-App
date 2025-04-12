@@ -12,3 +12,7 @@ body{
   height: 100%;
   background-color: rgb(7, 7, 30);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

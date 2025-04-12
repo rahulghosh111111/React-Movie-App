@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 
+
 const DefaultList = () => {
   const [movies, setMovies] = useState([]);
 
@@ -51,6 +52,10 @@ const DefaultList = () => {
               </p>
               <p className="movie-rating">Rating: {movie.vote_average}</p>
             </div>
+            <div className="button">
+              <button >click me</button>
+            </div>
+            
           </div>
         );
       })}

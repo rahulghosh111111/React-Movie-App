@@ -40,9 +40,25 @@ const SearchBar = () => {
   }
 
   return (
+    <>
+    <div>
+      <nav className=" bg-dark-900 text-white p-6 flex items-center ">
+        <ul className="nav-list  flex space-x-10 text-xl font-semibold items-end">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div>
       <form action="" className="form">
-        <h1>Movie App</h1>
+        <h1>Movies</h1>
 
         <input
           type="text"
@@ -56,6 +72,7 @@ const SearchBar = () => {
 
       {searchQuery ? <Movie movies={movies} /> : <DefaultList />}
     </div>
+    </>
   );
 };
 

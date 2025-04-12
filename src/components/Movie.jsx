@@ -23,8 +23,12 @@ const Movie = (props) => {
                 Release Date: {movie.release_date}
               </p>
               <p className="movie-rating">Rating: {movie.vote_average}</p>
+              <p className="movie-popularity">Popularity: {movie.popularity}</p>
+            
+
             </div>
           </div>
+          
         );
       })}
     </div>
