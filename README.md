@@ -31,7 +31,7 @@ These instructions will help you set up and run the project on your local machin
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Rohith-Manjunath/React-Movie-App.git 
+   https://github.com/rahulghosh111111/React-Movie-App.git 
 
 2.Change to the project directory:
 
