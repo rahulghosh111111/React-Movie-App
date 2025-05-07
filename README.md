@@ -2,8 +2,8 @@
 
 A responsive web application that allows users to search for and explore movies. This project was built using React, leveraging The Movie Database (TMDb) API for movie data.
 
-![App Screenshot](./src/assets/images/Screenshot%202023-09-25%20010607.png)
-![App Screenshot](./src/assets/images/Screenshot%202023-09-25%20010639.png)
+![movie](https://github.com/user-attachments/assets/ebf270fe-8143-4b60-b211-f2e487d8fde3)
+
 
 ## Features
 
